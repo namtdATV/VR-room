@@ -11,7 +11,6 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
-[Pp]ackages/
 Assets/AssetStoreTools*
 build_info.txt*
 !Library/BuildSettings.asset
