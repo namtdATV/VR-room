@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16243 MB
+OS: 'Windows 11  (10.0.26120) 64bit Professional' Language: 'en' Physical Memory: 16295 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Unity.exe
+E:\2021.3.19f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-D:/Unity projects/VR-Room
+E:/Unity/VR-room
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-51508
-Successfully changed project path to: D:/Unity projects/VR-Room
-D:/Unity projects/VR-Room
+51061
+Successfully changed project path to: E:/Unity/VR-room
+E:/Unity/VR-room
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,88 +47,82 @@ D:/Unity projects/VR-Room
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16316] Host "[IP] 192.168.1.94 [Port] 0 [Flags] 2 [Guid] 2221211050 [EditorId] 2221211050 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FV7CQEF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19328] Host "[IP] 192.168.102.9 [Port] 0 [Flags] 2 [Guid] 83374807 [EditorId] 83374807 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7A005MA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16316] Host "[IP] 192.168.1.94 [Port] 0 [Flags] 2 [Guid] 2221211050 [EditorId] 2221211050 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FV7CQEF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19328] Host "[IP] 192.168.102.9 [Port] 0 [Flags] 2 [Guid] 83374807 [EditorId] 83374807 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7A005MA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 102.07 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.34 ms.
+Refreshing native plugins compatible for Editor in 163.05 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.69 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity projects/VR-Room/Assets
+[Subsystems] Discovering subsystems at path E:/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/VR-room/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
     Vendor:   NVIDIA
-    VRAM:     12129 MB
-    Driver:   31.0.15.2756
+    VRAM:     5966 MB
+    Driver:   32.0.15.6038
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Mono path[0] = 'E:/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'E:/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.007196 seconds.
-Native extension for UWP target not found
+Register platform support module: E:/2021.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/2021.3.19f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: E:/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001988 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 195 ms
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 95.86 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
+Android Extension - Scanning For ADB Devices 225 ms
+Refreshing native plugins compatible for Editor in 145.03 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.744 seconds
+- Completed reload, in  0.960 seconds
 Domain Reload Profiling:
-	ReloadAssembly (744ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (960ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (592ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (782ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (82ms)
+			SetupTypeCache (111ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (446ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (590ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (254ms)
+				InitializePlatformSupportModulesInManaged (291ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (96ms)
+				RefreshPlugins (145ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (64ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004157 seconds.
+Registered in 0.006545 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 98.89 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 154.44 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Unity projects\VR-Room\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity projects\VR-Room\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in E:\Unity\VR-room\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Unity\VR-room\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
    --- End of inner exception stack trace ---
@@ -142,43 +136,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.247 seconds
+- Completed reload, in  1.815 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1248ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (1817ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1065ms)
-			LoadAssemblies (84ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1577ms)
+			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
+			SetupTypeCache (368ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (650ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (961ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (99ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (353ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (155ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (495ms)
+				ProcessInitializeOnLoadMethodAttributes (123ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.86 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 6199 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (0.7 MB). Loaded Objects now: 6688.
-Memory consumption went from 247.5 MB to 246.8 MB.
-Total: 4.637100 ms (FindLiveObjects: 0.453700 ms CreateObjectMapping: 0.385100 ms MarkObjects: 3.342700 ms  DeleteObjects: 0.454400 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.33 seconds
+Refreshing native plugins compatible for Editor in 1.70 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 6154 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (0.7 MB). Loaded Objects now: 6639.
+Memory consumption went from 240.4 MB to 239.7 MB.
+Total: 4.705500 ms (FindLiveObjects: 0.548000 ms CreateObjectMapping: 0.554500 ms MarkObjects: 3.103300 ms  DeleteObjects: 0.498300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -192,28 +186,172 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 612165.625440 seconds.
-  path: Assets/Settings/Project Configuration/Performance URP Config.asset
-  artifactKey: Guid(fd42a132493b1f143a4963adcd530ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Project Configuration/Performance URP Config.asset using Guid(fd42a132493b1f143a4963adcd530ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750f4b593132d3d7464d1e0455f81a08') in 0.058061 seconds 
+  Time since last request: 3080.395658 seconds.
+  path: Assets/Sources/Red Light.mat
+  artifactKey: Guid(cb05b2d35896fda418a2b5561bdb61b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Red Light.mat using Guid(cb05b2d35896fda418a2b5561bdb61b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eef25621605b505c85c99bc36892fa0') in 0.314069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 340.321306 seconds.
+  path: Assets/VRTemplateAssets/Themes/BlendShapeAffordanceTheme.asset
+  artifactKey: Guid(eb00da65e3eb3ec4183cff0ee667a979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Themes/BlendShapeAffordanceTheme.asset using Guid(eb00da65e3eb3ec4183cff0ee667a979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4264012e09c65729e861c585de3cc98') in 0.014778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Structures/Catwalk/Catwalk Rails Short.prefab
+  artifactKey: Guid(e2065e8f29774454889634d57ec0a96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Structures/Catwalk/Catwalk Rails Short.prefab using Guid(e2065e8f29774454889634d57ec0a96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12548e41d586b756ed8c2b350ae65be9') in 0.460545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Textures/crate_short_a.png
+  artifactKey: Guid(aea2490530f06b6479f24f2d8c79229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Textures/crate_short_a.png using Guid(aea2490530f06b6479f24f2d8c79229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720baeddef679bb2fae0066c4c83b399') in 0.164518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Materials/Crate Short Mat.mat
+  artifactKey: Guid(c133acdb4b757304cac42731a69f5d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/Crate Short Mat.mat using Guid(c133acdb4b757304cac42731a69f5d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb423c81d7271f3ad78b754b2fad205') in 0.416695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a7583bc912f3e48ad00b57fad674f6') in 0.008376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Materials/Extinguisher Mat.mat
+  artifactKey: Guid(5f412f828842049469cab1389415984b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/Extinguisher Mat.mat using Guid(5f412f828842049469cab1389415984b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a459c81453111b001e486194163b661') in 0.060972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished Height.tif
+  artifactKey: Guid(08ca04d11de0b984ba12a9b9e7b460d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished Height.tif using Guid(08ca04d11de0b984ba12a9b9e7b460d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ecde37777f50435d7a96f8df529342') in 0.037701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Crates Barrels Pallets/Crate Short.fbx
+  artifactKey: Guid(ce65141939545d440ac8591812208a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Crates Barrels Pallets/Crate Short.fbx using Guid(ce65141939545d440ac8591812208a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c6b0b2d06989d92e5f61ebb0a92a4a') in 0.253784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Textures/extinguisher_a.png
+  artifactKey: Guid(986145cfcac7b0849ae46bbdff06db4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Textures/extinguisher_a.png using Guid(986145cfcac7b0849ae46bbdff06db4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf995b75341e7ae5296cc385517371d') in 0.069079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Textures/extinguisher_s.png
+  artifactKey: Guid(f946a027abe17c04c993b2385163fd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Textures/extinguisher_s.png using Guid(f946a027abe17c04c993b2385163fd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7a353870ea678a23da934907a0bad3') in 0.130623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Textures/extinguisher_n.png
+  artifactKey: Guid(34c2ef1ae4e13fd4f909be4cb80e2641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Textures/extinguisher_n.png using Guid(34c2ef1ae4e13fd4f909be4cb80e2641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd35cfaa2ae2bc778493c7d8282996b4') in 0.052620 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/Settings/Project Configuration/Quality URP Config.asset
-  artifactKey: Guid(cf6a652e94858004a93399f0a3dac507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Project Configuration/Quality URP Config.asset using Guid(cf6a652e94858004a93399f0a3dac507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fccf80a7f4acbb24fa59138e6346b37') in 0.007848 seconds 
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Catwalk/Catwalk Short.fbx
+  artifactKey: Guid(97f0abc72d954744bb0831c9fe4e8db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Catwalk/Catwalk Short.fbx using Guid(97f0abc72d954744bb0831c9fe4e8db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ff3c1060e43a8ed3bacb11b422e8ff') in 0.073439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Props/Misc Props/Fire Extinguisher.prefab
+  artifactKey: Guid(300abc4d244c9784cb330753dcf797e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Props/Misc Props/Fire Extinguisher.prefab using Guid(300abc4d244c9784cb330753dcf797e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1c0c2da6d7e4886188855b91a5ce85') in 0.042441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Materials/Shelf Mat.mat
+  artifactKey: Guid(1abdbba98f8ab9e4c99e138c1480ceaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/Shelf Mat.mat using Guid(1abdbba98f8ab9e4c99e138c1480ceaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4958f4a7eb7f824f17013d1c39eafe2') in 0.049025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Catwalk/Short Stairs.fbx
+  artifactKey: Guid(66efbdba25775854a96fa31f4e19368f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Catwalk/Short Stairs.fbx using Guid(66efbdba25775854a96fa31f4e19368f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8ffc94425febbc534fee43572d3880') in 0.196534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Table Texture Set/Shelf.mat
+  artifactKey: Guid(5b7f23233a988d04a9e57a1c1bfbacbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Table Texture Set/Shelf.mat using Guid(5b7f23233a988d04a9e57a1c1bfbacbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730177d1dcd9fbc892f33f9f5eb48cfd') in 0.174705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Shelf with Crates.FBX
+  artifactKey: Guid(66f91e45b3db4984494c4394f379f7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Shelf with Crates.FBX using Guid(66f91e45b3db4984494c4394f379f7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db767e537627e40af8424ed92b44777d') in 0.169378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Props/Crates Barrels Pallets/Crate Short.prefab
+  artifactKey: Guid(aedebdaeae12a6743b39120d2f5156b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Props/Crates Barrels Pallets/Crate Short.prefab using Guid(aedebdaeae12a6743b39120d2f5156b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf072216fae69efe934dc171a549ba24') in 0.018127 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Settings/Project Configuration/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(b14f41a94dde88c4fa9fed9ae80f7362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Project Configuration/UniversalRenderPipelineGlobalSettings.asset using Guid(b14f41a94dde88c4fa9fed9ae80f7362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b887ded52067fcdb5246b5a1dc3b2e') in 0.007307 seconds 
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Misc Props/Fire Extinguisher.fbx
+  artifactKey: Guid(9c785a87f662c974db9241207a156048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Misc Props/Fire Extinguisher.fbx using Guid(9c785a87f662c974db9241207a156048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887366cd744987f735acb09091b665e4') in 0.027571 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Settings/Project Configuration/Standalone Preset.asset
-  artifactKey: Guid(b4712bf26326e8a4286df35b4a6d2b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Project Configuration/Standalone Preset.asset using Guid(b4712bf26326e8a4286df35b4a6d2b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003e50f41897c80d8905574cd43af686') in 0.007491 seconds 
+  Time since last request: 0.053754 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Props/Shelves/Shelf Variation 02.prefab
+  artifactKey: Guid(5c1b535d3782bee49819656f221e56de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Props/Shelves/Shelf Variation 02.prefab using Guid(5c1b535d3782bee49819656f221e56de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eda1c1be7aa16c4839290c181e6fed7') in 0.068518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Props/Shelves/Shelf Variation 04.prefab
+  artifactKey: Guid(5b83660a4c6176b41bfec1b7029c6597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Props/Shelves/Shelf Variation 04.prefab using Guid(5b83660a4c6176b41bfec1b7029c6597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0306f638f6e65f65fb0c8c15238167e1') in 0.060651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Shelf without Crates.prefab
+  artifactKey: Guid(07ed13550a76cd2429958ba8f43d7c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Shelf without Crates.prefab using Guid(07ed13550a76cd2429958ba8f43d7c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47173f701979205c11b3141a0ce47a5a') in 0.018840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/shelf_1001_MetallicSmoothness.png
+  artifactKey: Guid(7d7c4dbd6dba8be408a8bd90fb5bdd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/shelf_1001_MetallicSmoothness.png using Guid(7d7c4dbd6dba8be408a8bd90fb5bdd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37876a7420c650c99ce091a078665076') in 0.015074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Textures/shelf_n.png
+  artifactKey: Guid(a5d28b02fb2627442ab04901d5e442a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Textures/shelf_n.png using Guid(a5d28b02fb2627442ab04901d5e442a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5faa1488e0d289ced805728d9d0ec817') in 0.132964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Props/Shelves/Shelves Empty.prefab
+  artifactKey: Guid(f27fcf47b279da042ae6ff22c72d9949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Props/Shelves/Shelves Empty.prefab using Guid(f27fcf47b279da042ae6ff22c72d9949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca01bf4910c3a5a0243e6ed8813e7d8a') in 0.022525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Props/Shelves/Shelf Variation 05.prefab
+  artifactKey: Guid(ce7e4bd04c6404147b4b1dc694ac9a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Props/Shelves/Shelf Variation 05.prefab using Guid(ce7e4bd04c6404147b4b1dc694ac9a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38574567d629a4613ad00800bf31e978') in 0.090719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Textures/shelf_a.png
+  artifactKey: Guid(906cd3a5ced535a4a8b6696ca147c911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Textures/shelf_a.png using Guid(906cd3a5ced535a4a8b6696ca147c911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edf3be8f15b12ef8d53b1eb9479d15e') in 0.018270 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
