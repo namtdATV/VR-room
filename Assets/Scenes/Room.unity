@@ -2972,7 +2972,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.47368422, y: 1}
+  m_AnchorMax: {x: 0.33333334, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2989,7 +2989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3540,7 +3540,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 195952941}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431895091}
+        m_TargetAssemblyTypeName: InteractUI, Assembly-CSharp
+        m_MethodName: SelectColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &195952941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4901,7 +4913,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 270132515}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431895091}
+        m_TargetAssemblyTypeName: InteractUI, Assembly-CSharp
+        m_MethodName: SelectColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &270132515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5358,7 +5382,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 317456338}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431895091}
+        m_TargetAssemblyTypeName: InteractUI, Assembly-CSharp
+        m_MethodName: SpawnElement
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &317456338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5372,7 +5408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5550,7 +5586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5908,7 +5944,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 338657595}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431895091}
+        m_TargetAssemblyTypeName: InteractUI, Assembly-CSharp
+        m_MethodName: SpawnElement
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &338657595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5922,7 +5970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6012,6 +6060,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4649372153920182415, guid: 964d019e82327ae41878ec0410f5d5e0, type: 3}
   m_PrefabInstance: {fileID: 338964133}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &342133432 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6856520661941780249, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
+  m_PrefabInstance: {fileID: 1825262782}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &343067507
 GameObject:
@@ -6418,8 +6471,8 @@ RectTransform:
   m_Father: {fileID: 1972779911}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.47368422, y: 0}
-  m_AnchorMax: {x: 0.47368422, y: 1}
+  m_AnchorMin: {x: 0.33333334, y: 0}
+  m_AnchorMax: {x: 0.33333334, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 50, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -9781,7 +9834,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 538921914}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431895091}
+        m_TargetAssemblyTypeName: InteractUI, Assembly-CSharp
+        m_MethodName: SpawnElement
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &538921914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9795,7 +9860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -11106,7 +11171,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 586165610}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431895091}
+        m_TargetAssemblyTypeName: InteractUI, Assembly-CSharp
+        m_MethodName: SpawnElement
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &586165610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11120,7 +11197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -12010,7 +12087,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 646342261}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431895091}
+        m_TargetAssemblyTypeName: InteractUI, Assembly-CSharp
+        m_MethodName: SpawnElement
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 7
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &646342261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12024,7 +12113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -12994,7 +13083,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13101,7 +13190,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 725574358}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431895091}
+        m_TargetAssemblyTypeName: InteractUI, Assembly-CSharp
+        m_MethodName: SelectColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &725574358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15433,7 +15534,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 832653198}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431895091}
+        m_TargetAssemblyTypeName: InteractUI, Assembly-CSharp
+        m_MethodName: SelectColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &832653198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17248,7 +17361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -21699,7 +21812,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1190562751}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431895091}
+        m_TargetAssemblyTypeName: InteractUI, Assembly-CSharp
+        m_MethodName: SelectColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1190562751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22827,7 +22952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -25050,7 +25175,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1320628988}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431895091}
+        m_TargetAssemblyTypeName: InteractUI, Assembly-CSharp
+        m_MethodName: SpawnElement
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1320628988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25064,7 +25201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -26422,7 +26559,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1392594450}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431895091}
+        m_TargetAssemblyTypeName: InteractUI, Assembly-CSharp
+        m_MethodName: SelectFont
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1392594450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27118,7 +27267,8 @@ GameObject:
   - component: {fileID: 1431895093}
   - component: {fileID: 1431895092}
   - component: {fileID: 1431895091}
-  m_Layer: 5
+  - component: {fileID: 1431895094}
+  m_Layer: 3
   m_Name: InteractUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27159,15 +27309,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleSlider: {fileID: 1874650687}
   elements:
-  - {fileID: 6157966419204318385, guid: c302de2788e708b4e9b4b0e6c180c574, type: 3}
-  - {fileID: -9089229767653513001, guid: 37f4a67446309e440b1f8458cdf46bfa, type: 3}
-  - {fileID: -2556656566197785790, guid: 5e0e991f3626f7746876dc916670aeaf, type: 3}
-  - {fileID: -8728666771829991636, guid: 94a200d0f0655e245958c909f34a9f0c, type: 3}
   - {fileID: -8699366693795263283, guid: 1547930edf4aaeb4aba7570b4cfaf7b0, type: 3}
   - {fileID: -4184076527265430970, guid: 8846882a573a4fb4c971d3994180caa2, type: 3}
+  - {fileID: 6157966419204318385, guid: c302de2788e708b4e9b4b0e6c180c574, type: 3}
+  - {fileID: -8728666771829991636, guid: 94a200d0f0655e245958c909f34a9f0c, type: 3}
+  - {fileID: -9089229767653513001, guid: 37f4a67446309e440b1f8458cdf46bfa, type: 3}
+  - {fileID: -2556656566197785790, guid: 5e0e991f3626f7746876dc916670aeaf, type: 3}
   - {fileID: -123393560308524110, guid: 56736dad685ae454a934028afa39e246, type: 3}
-  - {fileID: 3249742633813516208, guid: 9c4aaca41c379d9408925f67ed8d321f, type: 3}
   - {fileID: 8144795100682665952, guid: 162dddcbae4bc824f8933f00860e4ade, type: 3}
+  - {fileID: 3249742633813516208, guid: 9c4aaca41c379d9408925f67ed8d321f, type: 3}
   fonts:
   - {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   - {fileID: 11400000, guid: 2971d7fef7ab0fc44a39cf45ac027ce7, type: 2}
@@ -27178,6 +27328,7 @@ MonoBehaviour:
   - {r: 0.19607843, g: 0.8039216, b: 0.19607843, a: 1}
   - {r: 1, g: 0.27058825, b: 0, a: 1}
   - {r: 0.4392157, g: 0.5019608, b: 0.5647059, a: 1}
+  rightHand: {fileID: 342133432}
 --- !u!114 &1431895092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27216,6 +27367,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431895089}
   m_CullTransparentMesh: 1
+--- !u!65 &1431895094
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431895089}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1000, y: 1000, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1451002449
 GameObject:
   m_ObjectHideFlags: 0
@@ -27763,7 +27927,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -28222,7 +28386,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1508850642}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431895091}
+        m_TargetAssemblyTypeName: InteractUI, Assembly-CSharp
+        m_MethodName: SpawnElement
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1508850642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28236,7 +28412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -28999,7 +29175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -31080,7 +31256,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1720035671}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431895091}
+        m_TargetAssemblyTypeName: InteractUI, Assembly-CSharp
+        m_MethodName: SpawnElement
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1720035671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31094,7 +31282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -32256,7 +32444,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1803877553}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431895091}
+        m_TargetAssemblyTypeName: InteractUI, Assembly-CSharp
+        m_MethodName: SelectFont
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1803877553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33948,7 +34148,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 169550471}
   m_HandleRect: {fileID: 369803557}
   m_Direction: 0
-  m_MinValue: 0.1
+  m_MinValue: 0.5
   m_MaxValue: 2
   m_WholeNumbers: 0
   m_Value: 1
@@ -33958,10 +34158,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1431895091}
         m_TargetAssemblyTypeName: InteractUI, Assembly-CSharp
         m_MethodName: SelectScale
-        m_Mode: 2
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 1874650687}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Slider, UnityEngine.UI
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -34716,7 +34916,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1931867319}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431895091}
+        m_TargetAssemblyTypeName: InteractUI, Assembly-CSharp
+        m_MethodName: SpawnElement
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1931867319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34730,7 +34942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -36145,7 +36357,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2002398152}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431895091}
+        m_TargetAssemblyTypeName: InteractUI, Assembly-CSharp
+        m_MethodName: SelectFont
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2002398152
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ public class UIElement : MonoBehaviour
 {
     public TextMeshProUGUI text;
     public Image[] images;
+    public bool isDragging;
 
     private UnityEngine.UI.Outline outline;
 
@@ -49,5 +50,15 @@ public class UIElement : MonoBehaviour
     public void OnSelect()
     {
         InteractUI.SelectNewUI(this);
+    }
+
+    public void OnPointerDown()
+    {
+        isDragging = true;
+    }
+
+    public void OnPointerUp()
+    {
+        isDragging = false;
     }
 }

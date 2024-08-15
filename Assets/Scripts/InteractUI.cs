@@ -14,25 +14,38 @@ public class InteractUI : MonoBehaviour
     public TMP_FontAsset[] fonts;
     public Color[] color;
 
+    public Transform rightHand;
+
     private static float sliderValue;
 
     private void Start()
     {
-        SpawnElement(6);
-        SelectFont(1);
-        //SelectScale(scaleSlider);
-        SelectColor(3);
+
     }
 
     private void Update()
     {
         //scaleSlider.value = sliderValue;
+
+        if (selectedUI != null && selectedUI.isDragging)
+        {
+            if (Physics.Raycast(rightHand.position, rightHand.forward, out RaycastHit hit, 100, LayerMask.GetMask("Target")))
+            {
+                selectedUI.transform.position = hit.point;
+            }
+            else
+            {
+                Destroy(selectedUI.gameObject);
+                selectedUI = null;
+            }
+        }
     }
 
     public void SpawnElement(int index)
     {
         UIElement el = Instantiate(elements[index].gameObject, transform.position, transform.rotation, transform).GetComponent<UIElement>();
-        SelectNewUI(el);
+        el.GetComponent<Button>().onClick.AddListener(() => SelectNewUI(el));
+        el.GetComponent<Button>().onClick.AddListener(() => { scaleSlider.value = sliderValue; });
     }
 
     public void SelectFont(int fontIndex)
@@ -43,12 +56,12 @@ public class InteractUI : MonoBehaviour
         selectedUI.SetFont(fonts[fontIndex]);
     }
 
-    public void SelectScale(Slider scale)
+    public void SelectScale()
     {
         if (!selectedUI)
             return;
 
-        selectedUI.SetScale(scale.value);
+        selectedUI.SetScale(scaleSlider.value);
     }
 
     public void SelectColor(int colorIndex)
